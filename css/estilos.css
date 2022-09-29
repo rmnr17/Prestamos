@@ -2,10 +2,7 @@
   box-sizing: border-box;
 }
 
-img {
-  width: 100%;
-  height: auto;
-}
+
 /* que hace esto???*/
 .row:after {
   content: "";
@@ -53,24 +50,28 @@ html {
 .header {
   color: #ffffff;
   padding: 25px;
-  background: linear-gradient(rgb(5, 99, 5),rgb(102, 197, 102));
+  background: linear-gradient(#6495ED, #B0C4DE);
 }
+
+
 .menu ul {
   list-style-type: none;
 }
 .menu li {
   padding: 15px;
   margin-bottom: 7px;
-  background-color :#11a506;
+  background-color: #6495ED ;
   border-radius: 10px;
   text-align: left;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 .menu li:hover {
-  background-color: #87dc6f;
+  background-color: #F4A460;
   }
+
+
 .footer {
-  background-color: #0099cc;
+  background: linear-gradient(	#FFDAB9,#FF7F50);
   color: #ffffff;
   text-align: center;
   font-size: 12px;
@@ -87,7 +88,7 @@ a{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-  background-color: rgb(12, 16, 20);
+  background-color: #6495ED;
 }
 .sucursales > div {
   background-color: #f1f1f1;
