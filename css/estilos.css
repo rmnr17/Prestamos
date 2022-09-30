@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 /* que hace esto???*/
 .row:after {
   content: "";
@@ -48,11 +47,12 @@ html {
   font-family: "Lucida Sans", sans-serif;
 }
 .header {
-  color: #ffffff;
+  color: #0a0303;
   padding: 25px;
   background: linear-gradient(#6495ED, #B0C4DE);
+  text-shadow: 3px 3px 6px rgb(49, 49, 183);
+  text-align:center;
 }
-
 
 .menu ul {
   list-style-type: none;
@@ -67,9 +67,7 @@ html {
 }
 .menu li:hover {
   background-color: #F4A460;
-  }
-
-
+}
 .footer {
   background: linear-gradient(	#FFDAB9,#FF7F50);
   color: #ffffff;
