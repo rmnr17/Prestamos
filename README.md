@@ -15,3 +15,8 @@ Hola! 06/10
 -me quedan: mejorar estilo, agregar planos de direcciones, poner video de youtube en home, achicar tabla de intereses
 -JS: con las herramientas de la práctica 07/10 empezar a trabajar con el formulario.
 
+Pablo: Hola! 08/10
+- Agregue en el JS las funciones de validacion y limpieza del formulario.
+- OJO que agregue una segunda entrade en email, para reconfirmar (esto se estila). NO sacarla porque funciona con la validacion!!!
+- La fot del header me parece buena idea, pero allí yo había puesto la animación, que ahora no esta. Donde ponemos la animación??
+- El JSON al verlo con el VSCode, marca error en los cam;or de FECHANACIMEINTO  y EMAIL....Será qeu hay que ponerlos como strings entre ""?
