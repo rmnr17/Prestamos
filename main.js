@@ -33,7 +33,7 @@ function validar(){
     if ((nom!="")&&(ape!="")&&(doc<100000000&&doc>0)&&(ing!=00)&&(pro!=="Selecciona una")&&
     (ema===ema2)&&(fec.substr(0,4)!=="")&&(fec.substr(5,2)!=="")&&(fec.substr(8,2)!=="")&&
     !(((aAct-aNac)>80)||((aAct-aNac)==80) && (mAct>=mNac))&&!(((aAct-aNac)<18)||((aAct-aNac)==18) && (mAct<mNac))) 
-    alert("SU FORMULARIO SE HA ENVIADO CORRECTAMENTE")
+    alert("SU SOLICITUD SE HA ENVIADO CORRECTAMENTE")
 }
 function limpiar(){
     document.getElementById("nombre").value=""
