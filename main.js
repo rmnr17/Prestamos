@@ -33,7 +33,7 @@ function validar(){
     if ((nom!="")&&(ape!="")&&(doc<100000000&&doc>0)&&(ing!=00)&&(pro!=="Selecciona una")&&
     (ema===ema2)&&(fec.substr(0,4)!=="")&&(fec.substr(5,2)!=="")&&(fec.substr(8,2)!=="")&&
     !(((aAct-aNac)>80)||((aAct-aNac)==80) && (mAct>=mNac))&&!(((aAct-aNac)<18)||((aAct-aNac)==18) && (mAct<mNac))) 
-    alert("SU SOLICITUD SE HA ENVIADO CORRECTAMENTE")
+    alert("* SU SOLICITUD SE HA ENVIADO CORRECTAMENTE * Nos comunicaremos via email dentro de las próximas 48hs.")
 }
 function limpiar(){
     document.getElementById("nombre").value=""
@@ -53,3 +53,26 @@ function limpiar(){
     ema2=document.getElementById("email2").value=""
     localStorage.setItem("email", "")
 }
+//experiencias
+let cad=`<div class="container">
+       `//arma la cadena para poner en el HTML virtual
+var aActual=(new Date()).getFullYear()       
+for(x of clientes){
+    edad=aActual-parseInt(x.fechanacimiento.substr(6,4))
+    dniS=String(x.dni)
+    dniX=dniS.substr(0,2)+"."+dniS.substr(2,3)+".xxx"
+    cad+=`<div class="tarjeta">
+            <div class="cuerpo">
+                <h4>Cliente: ${x.nombre} ${x.apellido}</h4>
+                <p>DNI: ${dniX}</p>
+                <p>Provincia: ${x.provincia}</p>
+                <p>Edad: ${edad} años</p>
+                <h4>Experiencia: ${x.exp}</h4>
+            </div>
+        </div>
+    `
+}
+cad+=`</div>
+      `       // le agrego el cierre de la etiqueta div
+console.log(cad)
+document.getElementById("tarjetas").innerHTML=cad

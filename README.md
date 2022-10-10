@@ -20,3 +20,9 @@ Pablo: Hola! 08/10
 - OJO que agregue una segunda entrade en email, para reconfirmar (esto se estila). NO sacarla porque funciona con la validacion!!!
 - La fot del header me parece buena idea, pero allí yo había puesto la animación, que ahora no esta. Donde ponemos la animación??
 - El JSON al verlo con el VSCode, marca error en los cam;or de FECHANACIMEINTO  y EMAIL....Será qeu hay que ponerlos como strings entre ""?
+
+Pablo: Hola! 10/10
+- Agregue en JS la lectura del archivo de datos (adaptado del JSON), con el mismo array de objetos pero sin formato JSON. Mañana le pregunto a la profe como hacerlo directo del JSON ,asi ya casi tenemos esto.
+- puse la quinta pagina (y su boton de menu correspondiente) apra acceder a las "experiencias" que es con lo que cumpliremos el requisito de leer JSON.
+- Falta: 1) animacion: ver donde poner, 2) terminar tema JSON, 3) foto de header no queda muy responsiva (se distorsiona un poco), 4) formato del formulario y tabla intereses.
+- Les pido PORFA que no toquen mucho el JS, me costo un monton de tiempo la logica.

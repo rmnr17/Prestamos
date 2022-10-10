@@ -1,118 +1,117 @@
-{
+
   "producto" : "Prestamos",
   "empresa" : "PrestaMito",
   "formada" : 2022,
   "basededatos" : "DatosClientes",
   "active" : true,
-  "clientes" : [
+  var clientes = [
     {
       "nombre" : "Juan",
       "apellido" : "Perez",
-      "fechanacimiento" : 01/12/1987,
+      "fechanacimiento" : "01/12/1987",
       "dni" : 33728569,
       "ingresos" : 80000,
       "provincia" : "Buenos Aires",
-      "mail" : juanp1987@gmail.com
+      "mail" : "juanp1987@gmail.com"
 	
     },
    
    {
       "nombre" : "Luna",
       "apellido" : "Gonzalez",
-      "fechanacimiento" : 25/11/1990,
+      "fechanacimiento" : "25/11/1990",
       "dni" : 36548792,
       "ingresos" : 130000,
       "provincia" : "La Pampa",
-      "mail" : lunnita_forever@gmail.com
+      "mail" : "lunnita_forever@gmail.com"
 	
     },
    
    {
       "nombre" : "Oscar",
       "apellido" : "Gomez",
-      "fechanacimiento" : 13/09/1965,
+      "fechanacimiento" : "13/09/1965",
       "dni" : 20798214,
       "ingresos" : 50000,
       "provincia" : "CABA",
-      "mail" : gomezoscar1@hotmail.com
+      "mail" : "gomezoscar1@hotmail.com"
 	
     },
 
    {
       "nombre" : "Ester",
       "apellido" : "Coscarello",
-      "fechanacimiento" : 14/02/1975,
+      "fechanacimiento" : "14/02/1975",
       "dni" : 25123456,
       "ingresos" : 98000,
       "provincia" : "CABA",
-      "mail" : mimicoscarello@hotmail.com
+      "mail" : "mimicoscarello@hotmail.com"
 	
     },
 
    {
       "nombre" : "Federico",
       "apellido" : "Paez",
-      "fechanacimiento" : 08/07/1985,
+      "fechanacimiento" : "08/07/1985",
       "dni" : 30728569,
       "ingresos" : 100000,
       "provincia" : "Buenos Aires",
-      "mail" : fedecomputacion@yahoo.com.ar
+      "mail" : "fedecomputacion@yahoo.com.ar"
 	
     },
 
    {
       "nombre" : "Leandro",
       "apellido" : "Martinez",
-      "fechanacimiento" : 21/08/1970,
+      "fechanacimiento" : "21/08/1970",
       "dni" : 24746561,
       "ingresos" : 110000,
       "provincia" : "Chaco",
-      "mail" : minoviabonita@gmail.com
+      "mail" : "minoviabonita@gmail.com"
 	
     },
 
    {
       "nombre" : "Julieta",
       "apellido" : "Piana",
-      "fechanacimiento" : 30/05/1991,
+      "fechanacimiento" : "30/05/1991",
       "dni" : 37582147,
       "ingresos" : 135000,
       "provincia" : "Neuquén",
-      "mail" : julilamejor91@gmail.com
+      "mail" : "julilamejor91@gmail.com"
 	
     },
 
  {
       "nombre" : "Pedro",
       "apellido" : "Del Valle",
-      "fechanacimiento" : 17/03/1977,
+      "fechanacimiento" : "17/03/1977",
       "dni" : 23578461,
       "ingresos" : 71000,
       "provincia" : "Buenos Aires",
-      "mail" : pedrodelvalle123@hotmail.com
+      "mail" : "pedrodelvalle123@hotmail.com"
 	
     },
 
  {
       "nombre" : "Alejandra",
       "apellido" : "Gimenez",
-      "fechanacimiento" : 31/12/1981,
+      "fechanacimiento" : "31/12/1981",
       "dni" : 295473147,
       "ingresos" : 86000,
       "provincia" : "Entre Ríos",
-      "mail" : aleconcordia@hotmail.com
+      "mail" : "aleconcordia@hotmail.com"
 	
     },
 
  {
       "nombre" : "Tomás",
       "apellido" : "Moggia",
-      "fechanacimiento" : 19/09/1989,
+      "fechanacimiento" : "19/09/1989",
       "dni" : 35425178,
       "ingresos" : 105000,
       "provincia" : "Salta",
-      "mail" : tomycabj@gmail.com
+      "mail" : "tomycabj@gmail.com"
 	
     },
   ]
-}

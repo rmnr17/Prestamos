@@ -99,3 +99,18 @@ a{
   padding: 20px;
   font-size: 30px;
 }
+/*experiencias*/
+.container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.tarjeta{
+  border: 2px solid rgb(167, 167, 165);
+  margin: 10px;
+  background-color: lightsalmon;
+  width: 45%;
+  border-radius: 10px;
+}
+.cuerpo{
+  padding: 10px;
+}
